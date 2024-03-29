@@ -17,7 +17,6 @@ const useReducer = () => {
   const [state, dispatch] = useReducer(reducer, { count: 0, showText: true });
   return (
     <div>
-      <h1>Hello World</h1>
       <h3>Count: {state.count}</h3>
       <button
         onClick={() => {
